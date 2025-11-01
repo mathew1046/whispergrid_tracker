@@ -1,0 +1,15 @@
+{
+  "name": "webtorrent-tracker",
+  "version": "1.0.0",
+  "description": "WebTorrent tracker for WispherGrid",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "bittorrent-tracker": "^11.0.0"
+  },
+  "engines": {
+    "node": ">=18.x"
+  }
+}
