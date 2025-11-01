@@ -1,6 +1,7 @@
 const Server = require('bittorrent-tracker').Server;
 
-const PORT = process.env.PORT || 8000;
+const PORT = process.env.PORT || 8080;
+server.listen(PORT, () => console.log(`🚀 Tracker running on port ${PORT}`));
 
 const server = new Server({
   udp: false,      // Disable UDP (browsers can't use it)
